@@ -18,6 +18,7 @@ namespace RareCrewApplication
         {
 
             //pre pokretanja programa mozete obrisati html stranicu i sliku iz foldera
+            //pagePart i pngPath zameniti na racunaru gde se pokrece
             GenerateHtmlPage page = new GenerateHtmlPage();
             GeneratePiePng pie = new GeneratePiePng();
             EmpolyeeController controller = new EmpolyeeController();
